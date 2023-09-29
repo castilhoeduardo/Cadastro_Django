@@ -7,5 +7,4 @@ urlpatterns = [
     path('',views.home,name="home"),
     #cadastro.com/usuarios
     path('usuarios/',views.usuarios,name="listagem_usuarios"),
-     
 ]
