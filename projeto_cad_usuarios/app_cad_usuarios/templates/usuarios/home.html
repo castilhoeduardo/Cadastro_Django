@@ -3,7 +3,7 @@
 {%block conteudo%}
 <!--Formulário envia dados para banco de dados
 sintaxe Django jogar dados para página-->
-  <<form action="{% url 'listagem_usuarios' %}" method="post">
+  <form action="{% url 'listagem_usuarios' %}" method="post">
     {% csrf_token %}
     <div style="text-align: center" class="container">
       <h1>Cadastro de Usuários</h1>
